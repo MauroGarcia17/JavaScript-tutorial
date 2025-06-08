@@ -33,6 +33,7 @@ else {
 }
 */
 
+/*
 let TypeCard = "American Express";
 
 switch (TypeCard) {
@@ -48,3 +49,35 @@ switch (TypeCard) {
     default:
         console.log('Tipo de tarjeta no reconocido');
 }
+*/
+
+// Bucles
+
+/*
+let count = 1;
+while (count <= 50) {
+    console.log(count);
+    count++; // decrementa el contador
+}
+*/
+
+// Bucle for
+/*
+let names = ['John', 'Jane', 'Doe'];
+for (let i = names.length -1; i >= 0; i--) {
+    console.log(names[i]); // imprime cada nombre en el array
+}
+*/
+
+// Bucle for in
+let person = { name: 'John', age: 30, city: 'New York' };
+for (let key in person) {
+    console.log(key + ': ' + person[key]); // imprime cada clave y valor del objeto
+}
+
+
+function greeting(PersonName) {
+    console.log('Hello, ' + PersonName + '!'); // imprime un saludo
+}
+
+greeting('John'); // llama a la función con el nombre 'John'
